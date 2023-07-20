@@ -17,7 +17,7 @@ class ResourceFields:
 
 
 class Rate():
-    def __init__(self, code):
+    def __init__(self, code: str):
         self.code = code
         self.name = None
         self.value = None
@@ -41,7 +41,7 @@ class Rate():
         print(f'Не найдена информация о валюте с кодом {self.code}.')
 
 
-    def print_data(self, date):
+    def print_data(self, date: str):
         """
             Вывод информации о валюте.
         """

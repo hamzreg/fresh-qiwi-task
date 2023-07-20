@@ -1,6 +1,6 @@
 import argparse
 
-from utils import handle_data
+from utils import handle_date
 from rate import Rate
 
 
@@ -16,7 +16,7 @@ if __name__ == '__main__':
     parser = create_parser()
     args = parser.parse_args()
 
-    date = handle_data(args.date)
+    date = handle_date(args.date)
     rate = Rate(args.code)
 
     rate.get_value(date)

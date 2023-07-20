@@ -1,3 +1,7 @@
+# utility
 argparse==1.4.0
 Requests==2.31.0
 xmltodict==0.13.0
+
+# tests
+pytest==7.4.0

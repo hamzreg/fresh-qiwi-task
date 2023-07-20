@@ -9,8 +9,8 @@
 ```
 git clone https://github.com/hamzreg/fresh-qiwi-task.git
 cd ./fresh-qiwi-task/
-pip3 install -r requirements.
-cd qiwi-rates
+pip3 install -r requirements.txt
+cd qiwi-rates/
 python3 main.py code date
 ```
 
